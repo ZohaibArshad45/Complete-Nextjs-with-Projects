@@ -3,6 +3,7 @@ import React from 'react'
 
 const searchParams = ({ searchParams }) => {
     console.log(searchParams)
+    console.log(searchParams.Search)
 
     return (
         <div>
