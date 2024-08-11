@@ -1,2 +1,1 @@
-//
-// learn krna ha abiiiiiiiii
+/// learn krna ha abi
