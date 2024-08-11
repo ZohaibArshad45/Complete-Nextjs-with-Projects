@@ -13,6 +13,8 @@ export default function Home() {
       <Link className=" bg-blue-950 text-white p-2 pr-4 pl-4 mt-2 rounded-lg hover:bg-blue-600" href={`learn-Params/232323232323`}>Client Side = Learn use params url name (params)</Link>
       <Link className=" bg-blue-950 text-white p-2 pr-4 pl-4 mt-2 rounded-lg hover:bg-blue-600" href={'learn-searchParams'}>Client Side = Learn How SearchParams url name (searchParams)</Link>
       <Link className=" bg-blue-950 text-white p-2 pr-4 pl-4 mt-2 rounded-lg hover:bg-blue-600" href={'learn-ServerSide-DataFetching'}>Server Side = Fetch API</Link>
+      <Link className=" bg-blue-950 text-white p-2 pr-4 pl-4 mt-2 rounded-lg hover:bg-blue-600" href={'learn-ClientSide-DataFetching'}>Client Side = Fetch API</Link>
+      <Link className=" bg-blue-950 text-white p-2 pr-4 pl-4 mt-2 rounded-lg hover:bg-blue-600" href={'learn-loader-with-API'}>Client Side = Loader with API</Link>
 
       
     </main>
