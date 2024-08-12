@@ -27,7 +27,6 @@ const ProductDetailPage = async ({ params }) => {
                         <h1> <span className="text-blue-950 font-bold">Prep Time Minutes</span> : {FData.prepTimeMinutes}</h1>
                         <h1> <span className="text-blue-950 font-bold">Cook Time Minutes</span> : {FData.cookTimeMinutes}</h1>
                         <h1> <span className="text-blue-950 font-bold">Calories Per Serving</span> : {FData.caloriesPerServing}</h1>
-                        <p><span className="text-blue-950 font-bold">Instructions</span> : {FData.instructions}</p>
                         <p><span className="text-blue-950 font-bold">Tags</span> : {FData.tags}</p>
                         <p><span className="text-blue-950 font-bold">Rating⭐</span> : {FData.rating}</p>
                     </div>
