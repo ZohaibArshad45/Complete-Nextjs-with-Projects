@@ -1,10 +1,12 @@
 import Image from "next/image";
+import ProductsData from "./products/page";
 
 export default function Home() {
   return (
-    <main className="flex flex-col min-h-screen  items-center p-32 gap-6 ">
-      <h1 className="font-bold text-3xl text-blue-700">Wellcome Zohaib Arshad</h1>
-      <h1 className="font-bold text-3xl text-blue-700">Products Show With Detail Page</h1>
+    <main className="flex flex-col min-h-screen  items-center bg-blue-200 ">
+      <h1 className="font-bold text-3xl text-blue-900 mt-10">Wellcome Zohaib Arshad</h1>
+      <ProductsData/>
+      
  
     </main>
   );
